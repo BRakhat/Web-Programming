@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Instagram</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="mainslide">
+                    <img src="iphone.png" class="phone">
+                </div>
+                <div class="mainslide">
+                    <img src="iphone1.png" class="phone">
+                </div>
+                <div class="mainslide">
+                <img src="iphone2.png" class="phone">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="right-column text-center">
+                <img src="instagram.png" class="instagram-logo">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Phone number, username, or email">
+                        </div>
+                        <div class="form-group">
+                            <span><input type="password" class="form-control" placeholder="Password" id="PassInput"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Log in</button>
+                    </form>
+                    <div class="lineOrline">
+                        <p><span><b>OR</b></span></p>
+                    </div>
+                <button class="signwithfacebook" type="button">
+                    <span><img src="fblogo.png"></span>
+                    <span class="liwfb">Log in with Facebook</span>
+                    </button>
+                <button class="forgot" type="button">
+                    <span class="liwfb">Forgot Password?</span>
+                    </button>
+                </div>
+                <div class="right-column-login text-center">
+                    <p>Don't have an account? <span><a href="#">Sign up</a></span></p>
+                </div>
+                <div class="right-column-log text-center">
+                    <p>Get the app</p>
+                </div>
+                <div class="right-column-app align-items-start">
+                    <img src="apps.png" href="#">
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-end">
+        <div class="bottom-bar">
+            <a href="#home">ABOUT</a>
+            <a href="#home">HELP</a>
+            <a href="#home">PRESS</a>
+            <a href="#home">API</a>
+            <a href="#home">JOBS</a>
+            <a href="#home">PRIVACY</a>
+            <a href="#home">TERMS</a>
+            <a href="#home">LOCATIONS</a>
+            <a href="#home">TOP ACCOUNTS</a>
+            <a href="#home">HASHTAGS</a>
+            <a href="#home">LANGUAGE</a>
+            <span>© 2020 INSTAMRAG FROM BRAKHAT</span>
+            <p>© 2020 INSTAMRAG FROM BRAKHAT</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    var index = 0;
+    showSlides();
+        
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mainslide");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        index++;
+        if (index > slides.length) {index = 1} 
+        slides[index-1].style.display = "block"; 
+        setTimeout(showSlides, 4000);
+    }
+        
+    </script>
+</body>
+</html>

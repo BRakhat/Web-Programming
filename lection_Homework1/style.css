@@ -1,0 +1,151 @@
+/* http://e77813wy.beget.tech/ */
+body {
+    background-color: #fafafa!important;
+}
+.phone {
+    position: sticky;
+    padding-top: 70px;
+    height: 650px;
+    float: right;
+    margin: 10px;
+}
+.container {
+    margin-top: 20px;
+}
+.instagram-logo{
+    margin: 15px auto;
+}
+.right-column {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    width: 350px;
+    margin: 80px 15px 15px;
+    padding: 10px 40px 0px 40px;
+}
+.liwfb{
+    color:#385185;
+}
+.signwithfacebook{
+    border: 0;
+    background-color: #fff;
+    display: inline;
+    padding: 0;
+    position: relative;
+}
+button img {
+    height: 16px;
+    margin-right: 7px;
+    margin-bottom: 2px;
+}
+.lineOrline p{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #a0a0a0;
+    line-height: 0.1em;
+    margin: 20px 0 20px;
+}
+.lineOrline p span {
+    background: #fff;
+    padding: 0 10px;
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    color: #a0a0a0;
+}
+.form-group input {
+    font-size: 13px;
+    padding: 10px;
+    background-color: #fafafa;
+}
+.form-group {
+    margin-bottom: 6px!important;
+}
+.btn{
+    color: white!important;
+    background-color: #b2dffc!important;
+    border: 0!important;
+    padding: 3px!important;
+}
+.form-group span input{
+    margin-bottom: 15px!important;
+}
+.forgot {
+    border: 0;
+    background-color: #fff;
+    display: inline;
+    margin: 20px;
+    position: relative;
+    font-size: 12px;
+}
+.right-column-login{
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 5px;
+    width: 350px;
+    margin:15px;
+}
+.right-column-login p {
+    margin: 10px;
+    font-size: 14px;
+}
+.bottom-bar p {
+    display: none;
+}
+.right-column-log  {
+    padding: 5px;
+    width: 350px;
+    margin:15px 15px 0 15px;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    color: #000000;
+}
+.right-column-app img{
+    width: 300px; 
+    margin-top: -10px;
+    position: absolute;
+    left: 57px;
+}
+.screen{
+    position: sticky;
+}
+.bottom-bar {
+    padding: 75px 0 50px 0;
+}
+.bottom-bar a{
+    color:rgba(var(--fe0,0,55,107),1);
+    font-size: 12px;
+    padding-left:8px;
+}
+.bottom-bar span {
+    padding-left: 250px;
+    font-size: 12px;
+}
+@media (max-width: 600px) {
+    .phone{
+        display: none;
+    }
+    .right-column {
+        margin: 80px 55px 15px;
+    }
+    .right-column-login{
+        margin-left: 55px;
+    }
+    .right-column-log  {
+        margin-left: 55px;
+    }
+    .right-column-app img{
+        margin-left: 35px;
+    }
+    .bottom-bar {
+    padding: 70px;
+        padding-top: 120px;
+    } 
+    .bottom-bar span{
+        display: none;
+    }
+    .bottom-bar p{
+        display: block;
+        text-align: center;
+        font-size: 10px;
+        padding-top: 10px;
+    }
+}
