@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.ttt{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.ttt_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.da {
+    width: 80px;
+    height: 80px;   
+}
+.da:hover{
+    background: aqua;
+}
+.Game{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.txt{
+    text-align: center;
+}
+.aboutme{
+    text-align: center;
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#i1{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+#i2{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+#i3{
+    border-bottom: 1px solid black;
+}
+#i4{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+#i5{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+#i6{
+    border-bottom: 1px solid black;
+}
+#i7{
+    border-right: 1px solid black;
+}
+#i8{
+    border-right: 1px solid black;
+}
+#i9{
+    
+}

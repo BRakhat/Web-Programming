@@ -1,0 +1,45 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Tic-Tac-Toe</title>
+        <meta charset="utf-8">
+        <script src="script/script.js"></script>
+		<link rel = "stylesheet" type="text/css" href="style.css">
+        
+	</head>
+
+	<body>    
+        <h1 class="txt">Tic-Tac-Toe</h1>
+        <div class = "Game">
+        <div class="ttt">
+            <div class="ttt_row">
+                <div class="da" onclick="ClickAction(1)" id="i1"></div>
+                <div class="da" onclick="ClickAction(2)" id="i2"></div>
+                <div class="da" onclick="ClickAction(3)" id="i3"></div>
+            </div>
+            
+            <div class="ttt_row">
+                <div class="da" onclick="ClickAction(4)" id="i4"></div>
+                <div class="da" onclick="ClickAction(5)" id="i5"></div>
+                <div class="da" onclick="ClickAction(6)" id="i6"></div>
+            </div>
+            
+            <div class="ttt_row">
+                <div class="da" onclick="ClickAction(7)" id="i7"></div>
+                <div class="da" onclick="ClickAction(8)" id="i8"></div>
+                <div class="da" onclick="ClickAction(9)" id="i9"></div>
+            </div>
+            
+            
+            <button type="button" onClick="refreshPage()" style="margin-top: 150px;">restart</button>
+        </div>
+        </div>
+        <h1 class="txt" id="Pl">Player 1</h1>
+        <h1 class="txt" id="win"></h1>
+        <div class="aboutme">
+        
+            <h3>Bakytzhanov Rakhat. All Rights Reserved</h3>
+        
+        </div>
+	</body>
+</html>
