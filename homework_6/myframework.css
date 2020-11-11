@@ -1,0 +1,189 @@
+.row-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.row-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.row-around{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.row-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.column-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.column-around{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pos-center{
+    align-items: center;
+}
+.pos-end{
+    align-items: flex-end;
+}
+.pos-start{
+    align-items: flex-start;
+}
+
+.change-opacity a:hover{
+    opacity: 0.5;
+}
+
+#button-mid{
+    margin-right: 20px;
+    width: 150px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: 2px solid gray;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+}
+#button-mid:focus{
+    outline: none;
+}
+#button-mid:hover{
+    background-color: transparent;
+    color: black;
+}
+#button-small{
+    margin-right: 20px;
+    width: 100px;
+    height: 25px;
+    border-radius: 22.5px;
+    border: 2px solid gray;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+}
+#button-small:focus{
+    outline: none;
+}
+#button-small:hover{
+    background-color: transparent;
+    color: black;
+}
+
+#button-small-rect{
+    margin-right: 20px;
+    width: 100px;
+    height: 25px;
+    border: 0;
+    background-color: firebrick;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+}
+#button-small-rect:focus{
+    outline: none;
+}
+#button-small-rect:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+.date-btn{
+    width: 92%;
+    height: 40px;
+    background-color: firebrick;
+    border-radius: 0;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.date-btn:focus{
+    outline: none;   
+}
+.date-btn:hover{
+    background-color: black;
+}
+
+
+
+@media screen and (max-width: 1325px) {
+    
+}
+
+@media screen and (max-width: 1199px) {
+    
+}
+
+@media screen and (max-width: 991px) {
+    
+}
+
+@media screen and (max-width: 767px) {
+    
+}
+
+@media screen and (max-width: 575px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
